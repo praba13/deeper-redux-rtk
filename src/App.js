@@ -1,11 +1,14 @@
 import Counter from './features/counter/Counter';
+import AddPostForm from './features/posts/AddPostForm';
+import PostsList from './features/posts/PostsList';
 
 function App() {
   return (
-    <div className='App'>
-      <h4>Lets start with RTK!</h4>
-      <Counter />
-    </div>
+    <main className='App'>
+      {/*<Counter />*/}
+      <AddPostForm />
+      <PostsList />
+    </main>
   );
 }
 
